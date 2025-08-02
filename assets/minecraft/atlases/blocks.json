@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/oak",
+      "sprite": "minecraft:entity/signs/oak"
+    }
+  ]
+}
