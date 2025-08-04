@@ -1,0 +1,53 @@
+{
+  "credit": "Made with Blockbench, by Enchanted_Games (https://enchanted.games)",
+  "elements": [
+    {
+      "name": "chain_left1",
+      "from": [10.03553, 10, 11.53553],
+      "to": [13.03553, 16, 11.53553],
+      "rotation": { "angle": 22.5, "axis": "y", "origin": [8, 13, 8] },
+      "faces": {
+        "north": { "uv": [0, 3, 0.75, 6], "texture": "#sign" },
+        "south": { "uv": [0.75, 3, 0, 6], "texture": "#sign" }
+      }
+    },
+    {
+      "name": "chain_left2",
+      "from": [11.53553, 10, 10.03553],
+      "to": [11.53553, 16, 13.03553],
+      "rotation": { "angle": 22.5, "axis": "y", "origin": [8, 13, 8] },
+      "faces": {
+        "east": { "uv": [1.5, 3, 2.25, 6], "texture": "#sign" },
+        "west": { "uv": [2.25, 3, 1.5, 6], "texture": "#sign" }
+      }
+    },
+    {
+      "name": "chain_right1",
+      "from": [2.96447, 10, 4.46447],
+      "to": [5.96447, 16, 4.46447],
+      "rotation": { "angle": 22.5, "axis": "y", "origin": [8, 13, 8] },
+      "faces": {
+        "north": { "uv": [0, 3, 0.75, 6], "texture": "#sign" },
+        "south": { "uv": [0.75, 3, 0, 6], "texture": "#sign" }
+      }
+    },
+    {
+      "name": "chain_right2",
+      "from": [4.46447, 10, 2.96447],
+      "to": [4.46447, 16, 5.96447],
+      "rotation": { "angle": 22.5, "axis": "y", "origin": [8, 13, 8] },
+      "faces": {
+        "east": { "uv": [1.5, 3, 2.25, 6], "texture": "#sign" },
+        "west": { "uv": [2.25, 3, 1.5, 6], "texture": "#sign" }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "chains straight",
+      "origin": [13, 16, 8],
+      "color": 0,
+      "children": [0, 1, 2, 3]
+    }
+  ]
+}

@@ -4,13 +4,13 @@
       "type": "filter",
       "pattern": {
         "namespace": "^minecraft$",
-        "path": "^entity/signs/oak$"
+        "path": "^entity/signs/hanging/oak$"
       }
     },
     {
       "type": "single",
       "resource": "eg_sign_blocks:special/invisible",
-      "sprite": "entity/signs/oak"
+      "sprite": "entity/signs/hanging/oak"
     }
   ]
 }
