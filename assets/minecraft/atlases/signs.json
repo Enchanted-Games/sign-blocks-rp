@@ -9,7 +9,7 @@
     },
     {
       "type": "single",
-      "resource": "eg_sign_blocks:special/invisible",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
       "sprite": "entity/signs/hanging/oak"
     }
   ]

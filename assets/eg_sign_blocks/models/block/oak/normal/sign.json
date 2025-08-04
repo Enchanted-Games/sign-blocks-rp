@@ -1,5 +1,5 @@
 {
-  "parent": "eg_sign_blocks:block/template/sign",
+  "parent": "eg_sign_blocks:block/template/normal/sign",
   "textures": {
     "sign": "minecraft:entity/signs/oak",
     "particle": "minecraft:block/oak_planks"

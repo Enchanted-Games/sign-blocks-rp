@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "eg_sign_blocks:block/oak/oak_wall_sign"
+      "model": "eg_sign_blocks:block/oak/normal/wall_sign"
     },
     "facing=east": {
-      "model": "eg_sign_blocks:block/oak/oak_wall_sign",
+      "model": "eg_sign_blocks:block/oak/normal/wall_sign",
       "y": 90
     },
     "facing=south": {
-      "model": "eg_sign_blocks:block/oak/oak_wall_sign",
+      "model": "eg_sign_blocks:block/oak/normal/wall_sign",
       "y": 180
     },
     "facing=west": {
-      "model": "eg_sign_blocks:block/oak/oak_wall_sign",
+      "model": "eg_sign_blocks:block/oak/normal/wall_sign",
       "y": 270
     }
   }
