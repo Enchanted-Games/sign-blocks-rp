@@ -1,0 +1,7 @@
+{
+  "parent": "eg_sign_blocks:block/template/hanging/board_45",
+  "textures": {
+    "sign": "minecraft:entity/signs/hanging/pale_oak",
+    "particle": "minecraft:block/stripped_pale_oak_log"
+  }
+}

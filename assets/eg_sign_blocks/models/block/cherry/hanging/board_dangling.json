@@ -1,0 +1,7 @@
+{
+  "parent": "eg_sign_blocks:block/template/hanging/board_dangling",
+  "textures": {
+    "sign": "minecraft:entity/signs/hanging/cherry",
+    "particle": "minecraft:block/stripped_cherry_log"
+  }
+}

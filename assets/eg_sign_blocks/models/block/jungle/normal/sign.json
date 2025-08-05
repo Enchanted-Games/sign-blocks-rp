@@ -1,0 +1,7 @@
+{
+  "parent": "eg_sign_blocks:block/template/normal/sign",
+  "textures": {
+    "sign": "minecraft:entity/signs/jungle",
+    "particle": "minecraft:block/jungle_planks"
+  }
+}

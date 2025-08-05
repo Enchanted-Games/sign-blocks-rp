@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eg_sign_blocks:block/bamboo/normal/wall_sign"
+    },
+    "facing=east": {
+      "model": "eg_sign_blocks:block/bamboo/normal/wall_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "eg_sign_blocks:block/bamboo/normal/wall_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eg_sign_blocks:block/bamboo/normal/wall_sign",
+      "y": 270
+    }
+  }
+}

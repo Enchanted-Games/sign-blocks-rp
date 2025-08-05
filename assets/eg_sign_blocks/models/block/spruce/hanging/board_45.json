@@ -1,0 +1,7 @@
+{
+  "parent": "eg_sign_blocks:block/template/hanging/board_45",
+  "textures": {
+    "sign": "minecraft:entity/signs/hanging/spruce",
+    "particle": "minecraft:block/stripped_spruce_log"
+  }
+}

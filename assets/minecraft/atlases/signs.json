@@ -4,6 +4,102 @@
       "type": "filter",
       "pattern": {
         "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/acacia$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/acacia"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/bamboo$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/bamboo"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/birch$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/birch"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/cherry$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/cherry"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/crimson$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/crimson"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/dark_oak$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/dark_oak"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/jungle$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/jungle"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/mangrove$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/mangrove"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
         "path": "^entity/signs/hanging/oak$"
       }
     },
@@ -16,13 +112,37 @@
       "type": "filter",
       "pattern": {
         "namespace": "^minecraft$",
-        "path": "^entity/signs/hanging/acacia$"
+        "path": "^entity/signs/hanging/pale_oak$"
       }
     },
     {
       "type": "single",
       "resource": "eg_sign_blocks:sign_hider/invisible",
-      "sprite": "entity/signs/hanging/acacia"
+      "sprite": "entity/signs/hanging/pale_oak"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/spruce$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/spruce"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/warped$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/warped"
     }
   ]
 }

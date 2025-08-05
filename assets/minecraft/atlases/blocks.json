@@ -2,6 +2,86 @@
   "sources": [
     {
       "type": "single",
+      "resource": "minecraft:entity/signs/acacia",
+      "sprite": "minecraft:entity/signs/acacia"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/acacia",
+      "sprite": "minecraft:entity/signs/hanging/acacia"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/bamboo",
+      "sprite": "minecraft:entity/signs/bamboo"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/bamboo",
+      "sprite": "minecraft:entity/signs/hanging/bamboo"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/birch",
+      "sprite": "minecraft:entity/signs/birch"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/birch",
+      "sprite": "minecraft:entity/signs/hanging/birch"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/cherry",
+      "sprite": "minecraft:entity/signs/cherry"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/cherry",
+      "sprite": "minecraft:entity/signs/hanging/cherry"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/crimson",
+      "sprite": "minecraft:entity/signs/crimson"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/crimson",
+      "sprite": "minecraft:entity/signs/hanging/crimson"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/dark_oak",
+      "sprite": "minecraft:entity/signs/dark_oak"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/dark_oak",
+      "sprite": "minecraft:entity/signs/hanging/dark_oak"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/jungle",
+      "sprite": "minecraft:entity/signs/jungle"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/jungle",
+      "sprite": "minecraft:entity/signs/hanging/jungle"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/mangrove",
+      "sprite": "minecraft:entity/signs/mangrove"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/mangrove",
+      "sprite": "minecraft:entity/signs/hanging/mangrove"
+    },
+    {
+      "type": "single",
       "resource": "minecraft:entity/signs/oak",
       "sprite": "minecraft:entity/signs/oak"
     },
@@ -12,13 +92,33 @@
     },
     {
       "type": "single",
-      "resource": "minecraft:entity/signs/acacia",
-      "sprite": "minecraft:entity/signs/acacia"
+      "resource": "minecraft:entity/signs/pale_oak",
+      "sprite": "minecraft:entity/signs/pale_oak"
     },
     {
       "type": "single",
-      "resource": "minecraft:entity/signs/hanging/acacia",
-      "sprite": "minecraft:entity/signs/hanging/acacia"
+      "resource": "minecraft:entity/signs/hanging/pale_oak",
+      "sprite": "minecraft:entity/signs/hanging/pale_oak"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/spruce",
+      "sprite": "minecraft:entity/signs/spruce"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/spruce",
+      "sprite": "minecraft:entity/signs/hanging/spruce"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/warped",
+      "sprite": "minecraft:entity/signs/warped"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/warped",
+      "sprite": "minecraft:entity/signs/hanging/warped"
     }
   ]
 }

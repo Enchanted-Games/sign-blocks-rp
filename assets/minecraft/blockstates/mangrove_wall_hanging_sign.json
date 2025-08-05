@@ -1,0 +1,112 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/plank"
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/board"
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/chains_straight"
+      }
+    },
+
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/plank",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/board",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/chains_straight",
+        "y": 90
+      }
+    },
+
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/plank",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/board",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/chains_straight",
+        "y": 180
+      }
+    },
+
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/plank",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/board",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "eg_sign_blocks:block/mangrove/hanging/chains_straight",
+        "y": 270
+      }
+    }
+  ]
+}
