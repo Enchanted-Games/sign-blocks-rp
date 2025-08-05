@@ -1,0 +1,12 @@
+{
+  "env": {
+    "dependencies": ["@vanilla-resourcepack", "@vanilla-mcdoc"],
+    "customResources": {
+      "models/block": {
+        "category": "customblockmodel",
+        "ext": ".json",
+        "pack": "assets"
+      }
+    }
+  }
+}
