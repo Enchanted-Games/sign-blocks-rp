@@ -1,20 +1,13 @@
 import os
 
+signTypes = ["minecraft:oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "pale_oak", "bamboo", "crimson", "warped"]
+
 def main():
-  makeHangingModelSet("eg_sign_blocks", "minecraft:entity/signs/hanging/acacia", "minecraft:block/stripped_acacia_log", "eg_sign_blocks:block/acacia/hanging")
-  makeNormalModelSet("eg_sign_blocks", "minecraft:entity/signs/acacia", "minecraft:block/acacia_planks", "eg_sign_blocks:block/acacia/normal")
-  makeBlockstates("eg_sign_blocks:block/acacia/normal", "minecraft:acacia_sign", "minecraft:acacia_wall_sign", "eg_sign_blocks:block/acacia/hanging", "minecraft:acacia_hanging_sign", "minecraft:acacia_wall_hanging_sign")
-
-def getScriptRelativePath():
-  return os.path.dirname(os.path.realpath(__file__)) + "/"
-
-def contains(str: str, containsStr: str):
-    return (not (containsStr not in str.lower()))
-
-def addMinecraftNamespaceIfAbsent(str: str):
-  if(contains(str, ":")):
-    return str
-  return "minecraft:" + str
+  for signType in signTypes:
+    signTypeLocation = addMinecraftNamespaceIfAbsent(signType).split(":")
+    makeHangingModelSet("eg_sign_blocks", f"{signTypeLocation[0]}:entity/signs/hanging/{signTypeLocation[1]}", f"{signTypeLocation[0]}:block/stripped_{signTypeLocation[1]}_log", f"eg_sign_blocks:block/{signTypeLocation[1]}/hanging")
+    makeNormalModelSet("eg_sign_blocks", f"{signTypeLocation[0]}:entity/signs/{signTypeLocation[1]}", f"{signTypeLocation[0]}:block/{signTypeLocation[1]}_planks", f"eg_sign_blocks:block/{signTypeLocation[1]}/normal")
+    makeBlockstates(f"eg_sign_blocks:block/{signTypeLocation[1]}/normal", f"{signTypeLocation[0]}:{signTypeLocation[1]}_sign", f"{signTypeLocation[0]}:{signTypeLocation[1]}_wall_sign", f"eg_sign_blocks:block/{signTypeLocation[1]}/hanging", f"{signTypeLocation[0]}:{signTypeLocation[1]}_hanging_sign", f"{signTypeLocation[0]}:{signTypeLocation[1]}_wall_hanging_sign")
 
 def makeFiles(baseModelsPath: str, destPath: str, signTexture: str, particleTexture: str, template: str, templateNamespace: str):
   for subdir, dirs, files in os.walk(getScriptRelativePath() + baseModelsPath):
@@ -742,6 +735,17 @@ def writeBlockstateFile(dest: str, filename: str, contents: str):
 
   with open(hangingFullDestPath, "w") as f:
     f.write(contents)
+
+def getScriptRelativePath():
+  return os.path.dirname(os.path.realpath(__file__)) + "/"
+
+def contains(str: str, containsStr: str):
+    return (not (containsStr not in str.lower()))
+
+def addMinecraftNamespaceIfAbsent(str: str):
+  if(contains(str, ":")):
+    return str
+  return "minecraft:" + str
 
 if __name__ == "__main__":
   main()
