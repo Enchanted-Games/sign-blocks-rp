@@ -11,6 +11,18 @@
       "type": "single",
       "resource": "eg_sign_blocks:sign_hider/invisible",
       "sprite": "entity/signs/hanging/oak"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "^minecraft$",
+        "path": "^entity/signs/hanging/acacia$"
+      }
+    },
+    {
+      "type": "single",
+      "resource": "eg_sign_blocks:sign_hider/invisible",
+      "sprite": "entity/signs/hanging/acacia"
     }
   ]
 }

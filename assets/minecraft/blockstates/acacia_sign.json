@@ -1,0 +1,65 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign"
+    },
+    "rotation=1": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_22.5"
+    },
+    "rotation=2": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_45"
+    },
+    "rotation=3": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_-22.5",
+      "y": 90
+    },
+    "rotation=4": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign",
+      "y": 90
+    },
+    "rotation=5": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_22.5",
+      "y": 90
+    },
+    "rotation=6": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_45",
+      "y": 90
+    },
+    "rotation=7": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_-22.5",
+      "y": 180
+    },
+    "rotation=8": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign",
+      "y": 180
+    },
+    "rotation=9": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_22.5",
+      "y": 180
+    },
+    "rotation=10": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_45",
+      "y": 180
+    },
+    "rotation=11": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_-22.5",
+      "y": 270
+    },
+    "rotation=12": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign",
+      "y": 270
+    },
+    "rotation=13": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_22.5",
+      "y": 270
+    },
+    "rotation=14": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_45",
+      "y": 270
+    },
+    "rotation=15": {
+      "model": "eg_sign_blocks:block/acacia/normal/sign_-22.5",
+      "y": 0
+    }
+  }
+}

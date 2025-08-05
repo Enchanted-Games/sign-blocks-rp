@@ -1,0 +1,7 @@
+{
+  "parent": "eg_sign_blocks:block/template/hanging/chains_point_-22.5",
+  "textures": {
+    "sign": "minecraft:entity/signs/hanging/acacia",
+    "particle": "minecraft:block/stripped_acacia_log"
+  }
+}

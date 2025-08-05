@@ -9,6 +9,16 @@
       "type": "single",
       "resource": "minecraft:entity/signs/hanging/oak",
       "sprite": "minecraft:entity/signs/hanging/oak"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/acacia",
+      "sprite": "minecraft:entity/signs/acacia"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/signs/hanging/acacia",
+      "sprite": "minecraft:entity/signs/hanging/acacia"
     }
   ]
 }

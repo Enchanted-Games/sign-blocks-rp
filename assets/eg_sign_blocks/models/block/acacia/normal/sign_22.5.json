@@ -1,0 +1,7 @@
+{
+  "parent": "eg_sign_blocks:block/template/normal/sign_22.5",
+  "textures": {
+    "sign": "minecraft:entity/signs/acacia",
+    "particle": "minecraft:block/acacia_planks"
+  }
+}
