@@ -2,6 +2,6 @@
   "parent": "eg_sign_blocks:block/template/hanging/chains_straight_22.5",
   "textures": {
     "sign": "minecraft:entity/signs/hanging/bamboo",
-    "particle": "minecraft:block/stripped_bamboo_log"
+    "particle": "minecraft:block/bamboo_planks"
   }
 }
