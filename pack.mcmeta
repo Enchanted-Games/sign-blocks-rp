@@ -1,13 +1,13 @@
 {
   "pack": {
     "pack_format": 46,
-    "supported_formats": [46, 65],
+    "supported_formats": [46, 84],
     "min_format": 46,
-    "max_format": 65,
+    "max_format": 84,
     "description": [
-      {
-        "text": ""
-      }
+      "",
+      { "text": "Better sign render distance!\n", "color": "#7fd65a" },
+      "v1.1.0 | by Enchanted_Games"
     ]
   }
 }
